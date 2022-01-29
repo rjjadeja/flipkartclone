@@ -1,0 +1,65 @@
+@media  screen and (max-width:1000px){
+   
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+        margin: 15px 0px;
+
+    }
+nav ul{
+    justify-content: center;
+    height: 32px;
+}
+.search{
+    margin: auto;
+}
+.search input{
+    margin: 12px 18px;
+}
+.slider{
+    height:50vh;
+    
+}
+  .card-items img{
+      width: 130px;
+      padding: 0px 15px;
+  }
+
+}
+    @media screen and (max-width:500px){
+        nav ul li{
+            padding: 25px;
+        }
+        .search{
+            width: auto;
+        }
+        .slider{
+            height: 34vh;
+        }
+        .card-items{
+            margin: auto;
+        }
+        .card-items img{
+            width: 60px;
+        }
+        .card{
+            padding: 0;
+            font-size: 12px;
+        }
+        .card h2{
+            text-align: center;
+        }
+        .text-center{
+            line-height: 0.7rem;
+
+        }
+        .text-all-center{
+            height:5vh;
+        }
+        
+
+    }
+
+    
